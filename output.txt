@@ -1,0 +1,10 @@
+<reservedWord,int>
+<id,a>
+<operation,=>
+<int,100>
+<punctuation,;>
+<reservedWord,String>
+<id,b>
+<operation,=>
+<literal,"abc">
+<punctuation,;>
