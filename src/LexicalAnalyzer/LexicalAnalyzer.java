@@ -212,6 +212,16 @@ public class LexicalAnalyzer {
         }
     }
 
+    public ArrayList<Token> getTokens(){
+        ArrayList<Token> tokens = new ArrayList<>();
+        getInput();
+        while(index < input.size()){
+            Token token = scanner();
+            tokens.add(token);
+        }
+        return tokens;
+    }
+
     public static void main(String[] args){
         getInput();
         ArrayList<Token> result = new ArrayList<>();
